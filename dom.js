@@ -1,6 +1,7 @@
 let headerTitle=document.getElementById('header-title');
 let header=document.getElementById('main-header');
 let a=document.querySelector('.title');
+
 headerTitle.textContent="Hii";
 header.style.border='solid 3px black'
 a.style.fontWeight='bold';
@@ -10,4 +11,10 @@ let item=document.getElementsByClassName('list-group-item')
 item[2].style.backgroundColor='green'
 for(let i=0;i<item.length;i++){
     item[i].style.fontWeight='bold';
+}
+
+let li=document.getElementsByTagName('li')
+li[2].style.backgroundColor='yellow'
+for(let i=0;i<li.length;i++){
+    li[i].style.fontWeight='bold';
 }
